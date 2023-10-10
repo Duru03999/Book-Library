@@ -22,9 +22,4 @@ Install Uvicorn, which is available at [https://www.uvicorn.org], in order to op
 Use the command below to install the necessary Python dependencies:
 `pip install --upgrade --force-reinstall --ignore-installed --no-cache-dir fastapi sqlalchemy psycopg2-binary numpy`
 
-## Initializing Data 
 
-Make a POST request with cURL to the following address to initialize the data:
-`curl -XPOST localhost:8000/init`
-
-As a result, the data for your application will be filled.
